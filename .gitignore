@@ -1,0 +1,18 @@
+# Virtual environments
+venv/
+env/
+.env/
+
+# Large data files
+downloads/
+*.bin
+*.bin.gz
+*.pkl
+*.csv
+*.h5
+*.hdf5
+
+# PyTorch/ML models
+*.pth
+*.pt
+*.ckpt
