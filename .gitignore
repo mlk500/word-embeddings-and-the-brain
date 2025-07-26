@@ -4,7 +4,6 @@ env/
 .env/
 
 # Large data files
-downloads/
 *.bin
 *.bin.gz
 *.pkl
