@@ -20,7 +20,6 @@ def test_decoder(fmri_data, vector_sentences, decoder):
     pred_sentences = fmri_data @ decoder
     rank_scores = []
     ranks = []
-
     for i, pred_vector in enumerate(pred_sentences):
         similarities = []
         for candidate_vector in vector_sentences:
